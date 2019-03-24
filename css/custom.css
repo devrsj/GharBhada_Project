@@ -1,0 +1,234 @@
+/*
+ Project Name: Mero Gharbhada
+ Project Category: Realstate
+ Developed by: Online Zeal Pvt. Ltd - Tinkune,Kathmandu,Nepal.
+ Author: Bhagwan Thapa (Senior FrontEnd Developer)
+ Date:March 2019
+
+*/
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700:400,700'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---colors---*/
+
+:root {
+    --primary: #0470b8!important;
+    --secondary: #f7941f!important;
+    --success: #99cc00!important;
+    --accent: #49633c!important;
+    --light-gray: #fefefe!important;
+    --gray: #555555!important;
+    --white: #fff!important;
+}
+
+.title {
+    color: #4e5561;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* letter-spacing: 3px; */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.navbar-brand img{
+    height:100px;
+}
+
+.upload a.btn-upload{
+    background-color:var(--secondary);
+    color:#fdfdfd;
+    padding:10px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.upload a.btn-upload:hover{
+    background-color:var(--gray);
+    color:#fdfdfd;
+    text-decoration: none;
+
+}
+.upload .btn-upload::after{
+    content: '\f093';
+    font-family: "Font Awesome 5 Free";
+    margin-left: 5px;
+    /* font-size: smaller; */
+    /* f1ad */
+    
+}
+
+.relative{
+    position: relative;
+}
+
+
+.landing-box{
+    position: relative;
+
+    
+}
+
+/* partners carousel */
+/*involvement section*/
+#owl-2 img:hover {
+    transform: scale(1.05);
+}
+
+#owl-2 .owl-prev {
+    background: var(--gray);
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    z-index: 1000;
+    left: -2.75%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+    -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+
+#owl-2 .owl-next {
+    background: var(--gray);
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    z-index: 1000;
+    right: -2.75%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%);
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+#owl-2 .owl-prev:hover,
+#owl-2 .owl-next:hover {
+    opacity: 0.5;
+}
+
+
+.carousel-item img{
+    height: 75vh;
+}
+
+.hero-content-wrapper{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    font-family: inherit;
+}
+
+.hero-content-wrapper h1{
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    text-shadow: 1px 3px 3px rgba(0,0,0,0.8);
+}
+
+.hero-content-wrapper p{
+    /* word-spacing: 3px; */
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-item::before{
+    content:'';
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.search-box{
+    background: var(--primary);
+    position: absolute;
+    z-index: 9999;
+    bottom:0;
+    left:0;
+    right: 0;
+    padding:30px 0 20px 0;
+    opacity: 0.98;
+
+}
+
+.advance-search-box{
+    
+}
+.advance-search-box li{
+
+    display: inline-block; 
+}
+
+.advance-search-box li a{
+
+    display: inline-block;  
+    color:#b3bfc7;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 15px;
+    border-bottom: 1px solid #b3bfc7;
+    
+
+    
+}
+
+.advance-search-box li a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+input[type="text"]{
+    border-radius: 0;
+    padding: 10px 11px;
+}
+
+/* select option{font-size: 18px;} */
+
+.search-btn .btn-success{
+    background:var(--success);
+    border:none;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    border-radius: 0;
+    padding: 7px;
+    
+}
+
+.fontAwesome{
+    
+    font-family:"Font Awesome 5 Free";
+
+}
