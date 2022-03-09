@@ -4,195 +4,177 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/owl-carousel.min.css">
-    <link rel="stylesheet" href="css/slider.css">
-
-
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Mukta:400,500,600,700" rel="stylesheet">
 
-    <title>Mero Gharbhada - Find rented Rooms,House,Apartment,Office space.</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl-carousel.min.css"> 
+
+    <link rel="stylesheet" href="css/v4-shims.css">
+
+    <!--FOTORAMA----->
+    <link rel="stylesheet" href="fotorama/fotorama.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Gharbhada - Find Rental Properties Online</title>
+
   </head>
   <body>
 
-  <!-- <header>
-    <div class="container">
-        <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+  <section class="scrolling-banner color-white">
+    <marquee direction="left" scrollamount="10">Find & Rent Rooms, Flats, Apartments and Houses.</marquee>
+  </section>
 
-            <a href="">Support  <span> 977-9841545854</span> </a>
-        
-        </div>
-        <div class="col-md-4"></div>
-        </div>
-    </div>
-  </header> -->
+  <header>
 
-  <nav class="navbar navbar-expand-md navbar-light">
-    
-    <div class="container">
+    <div class="top-new-header bg-grey"> <!--TOP-Header-->
+      <div class="container clearfix">
+          <div class="header-support-wrap float-left">
+            <div class="nepal-flag-wrap">
+              <img src="images/nepal-flag.png" alt="">
 
-  <a class="navbar-brand" href="index.php">
-    <img src="images/logo.png" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+              <div class="date-time-wrap float-left">
+                <?php echo date("Y/m/d") . ' ' . date("h:i:sa") ; ?>
+              </div>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav  ml-auto mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Rooms <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Houses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Flats</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Appartments</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Featured</a>
-      </li> 
-    </ul>
+              <div class="header-calender-wrap float-left">
+                <i class="fas fa-calendar-alt"></i>
 
-    <ul class="navbar-nav ml-auto upload">
-    <li class="nav-item">
-       
-      <a  href="#" class="btn-upload" >Upload Property</a>
-  
-       
-      </li> 
+                <div class="header-calender">
+                <aside class="blog-side"> <!-- Card -->
+                        <!-- <h4 class="banner-title text-center">Calender</h4> -->
+                        <div class="clearfix">
+                        <div class="calender-widget">
+                            <div class="curr-month"><b>february</b></div>
+                                <div class="all-days">
+                                    <ul>
+                                        <li>sun</li>
+                                        <li>mon</li>
+                                        <li>tue</li>
+                                        <li>wed</li>
+                                        <li>thu</li>
+                                        <li>fri</li>
+                                        <li>sat</li>
+                                    </ul>
+                                </div>
+                                <div class="all-date">
+                                    <ul>
+                                    </ul>
+                                </div>
+                        </div>
+                        </div>
+                    </aside> <!-- Card -->
+              </div>
+              </div>
 
-</ul>   
-  </div>
-  </div>
-</nav>
-
-<div class="landing-box">
-
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade relative" data-ride="carousel">
-
-<div class="hero-content-wrapper">
-      <h1>rent your property online</h1>
-      <p>Nepal's No. 1 Rental Portal for Renting Rooms, Flats, Apartments and Houses.</p>
-    </div>
-  <!-- <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol> -->
-  <div class="carousel-inner">
-  
-    <div class="carousel-item active">
-      <img src="images/slider1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/slider2.jpg" class="d-block w-100" alt="...">
-    </div>
-    
-  </div>
-  <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
-</div>
-
-
-<div class="container relative">
-  <div class="row search-box ">
-    <div class="col-md-9">
-    <form>
-  <div class="form-row align-items-center">
-  <div class=" col-md-5 col-sm-6">
-      <label class="sr-only" for="inlineFormInputGroup">Username</label>
-      <div class="input-group mb-2">
-        <!-- <div class="input-group-prepend">
-          <div class="input-group-text">@</div>
-        </div> -->
-        <!-- <label for="emailAddress">email</label> -->
-  <input type="text" class="fontAwesome form-control" name="emailAddress" placeholder="&#xf3c5; Enter Location" value="">
-      </div>
-    </div>
-    
-    <div class=" col-md-5 col-sm-6">
-      <label class="sr-only" for="inlineFormInputGroup">Username</label>
-      <div class="input-group mb-2">
-
-      <select name="" id="ok" class=" fontAwesome form-control" id="inlineFormInputGroup" placeholder="&#xf1ad;">
-
-      <option value="">Please select property Type</option>
-      <option value="">Rooms</option>
-      <option value="">House</option>
-      <option value="">Appartments</option>
-      <option value="">Flats</option>
-      <option value="">Office Space</option>
-      
-
-
-      </select>
-<!--        
-        <input type="text" class=" fontAwesome form-control" id="inlineFormInputGroup" placeholder="&#xf1ad; Select property"> -->
-      </div>
-    </div>
-    
-    <div class=" col-md-2 col-sm-12 search-btn">
-      <button type="submit" class="btn btn-success mb-2 btn-block">Search</button>
-    </div>
-  </div>
-</form>
-    </div>
-
-    <div class="col-md-3">
-      <ul class="advance-search-box">
-        <li><a href="">Advance Search</a></li>
-        <li><a href="">Need  help?</a></li>
-      </ul>
-
-    </div>
-  </div>
-</div>
-</div>
-
-
-<section id="newproperties">
-  <div class="container">
-      <h1 class="title mt-4 mb-3">New Properties</h1>
-        <div id="owl-2">
-            <div class="owl-carousel">
-                <div class="item">
-                  <img src="images/properties/pro1.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="images/properties/pro2.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="images/properties/pro3.jpg" alt="">
-                </div>
-                <div class="item">
-                  <img src="images/properties/pro4.jpg" alt="">
-                  
-                </div>
-                <div class="item">
-                  <img src="images/properties/pro5.jpg" alt="">
-                  
-                </div>
-                
             </div>
-        </div>
+          </div>
+
+          <div class="header-login-wrap float-right">
+            <a href="register.php"><i class="fas fa-lock"></i> Login / Register</a>
+          </div>
+      </div>
+    </div> <!--TOP-Header-->
+
+    <nav class="navbar navbar-expand-lg">
+      
+      <div class="container">
+
+    <a class="navbar-brand" href="index.php">
+      <img src="images/logo-placeholder.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Residence</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="listing.php">Home</a>
+            <a class="dropdown-item" href="listing.php">Apartment</a>
+            <a class="dropdown-item" href="listing.php">Flat</a>
+            <a class="dropdown-item" href="listing.php">Room</a>
+            <a class="dropdown-item" href="listing.php">Others</a>
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Office</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="business-listing.php">Home</a>
+            <a class="dropdown-item" href="business-listing.php">Flat</a>
+            <a class="dropdown-item" href="business-listing.php">Space</a>
+            <a class="dropdown-item" href="business-listing.php">Others</a>
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Home-Stay</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="hotel-listing.php">Room</a>
+            <a class="dropdown-item" href="hotel-listing.php">Paying Guest</a>
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Hotel</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="hotel-listing.php">Star</a>
+            <a class="dropdown-item" href="hotel-listing.php">Non-Star</a>
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Business</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="business-listing.php">Mall</a>
+            <a class="dropdown-item" href="business-listing.php">House</a>
+            <a class="dropdown-item" href="business-listing.php">Shutter</a>
+            <a class="dropdown-item" href="business-listing.php">Storehouse</a>
+            <a class="dropdown-item" href="business-listing.php">Space</a>
+          </div>
+
+        </li> 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Others</a>
+
+          <!-- Dropdown -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="land-listing.php">Land</a>
+            <a class="dropdown-item" href="land-listing.php">Trust</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="land-listing.php">Factory</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="land-listing.php">Machine</a>
+          </div>
+
+        </li> 
+        <li class="nav-item">
+          <a  href="sell.php" class="nav-link btn-upload" >Upload Property</a>
+        </li> 
+      </ul>
     </div>
-</section>
+    </div>
+  </nav>
+
+</header>
+
 
 
 
