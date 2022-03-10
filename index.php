@@ -376,7 +376,7 @@
             <div class="col-md-9">
                 <div class="banner-wrapper-30">
                     <a href="#">
-                        <img src="images/banner-1.jpg" alt="">
+                        <img src="images/banner-1.gif" alt="">
                     </a>
                 </div>
             </div>
@@ -1448,22 +1448,13 @@
 
         <div class="composition-center">
             <h4 class="composition-title color-white u-margin-bottom-small text-center">Need Help?</h4>
-            <p class="normal-content color-white u-margin-bottom-small">If you Need Assistance then  Dial on our hotline number given below.</p>
+            <p class="normal-content color-white u-margin-bottom-small text-center">If you Need Assistance then  Dial on our hotline number given below.</p>
             <h4 class="composition-title color-white u-margin-bottom-small text-center underline-spacing">Hotline</h4>
             <h4 class="composition-title color-white text-center">+977-984125352</h4>
             <h4 class="composition-title color-white text-center">+977-01-4802515</h4>
 
         </div>
-        
-        <div class="composition-right">
-            <h4 class="composition-title color-white u-margin-bottom-small">Feature your Property</h4>
-            <p class="normal-content color-white u-margin-bottom-small">Inorder to post your Property you need to register first.</p>
-            <div class="clearfix">
-                <a href="register.php" class="composition-btn color-white float-left"><i class="fas fa-lock"></i> Login / Register</a>
-                <!-- <p class="normal-content color-white composition-sep float-left">or</p>
-                <a href="register.php" class="composition-btn color-white float-left">login</a> -->
-            </div>
-        </div>
+    
     </div>
 </section>
 

@@ -35,12 +35,27 @@
                 </div> <!-- Card.// -->
 
             </div> <!-- Col.// -->
-            <div class="col-lg-3"> <!-- Col.// -->
+            
+
+            <div class="col-lg-3"> <!-- COL -->
+
+                
+                <aside class="side-card u-margin-bottom-small">
+                        <div class="banner-wrap bg-success">
+                            <h5 class="aside-title text-center color-white">Search</h5>
+                        </div>
+                        <div class="all-common-padding">
+                            <form action="side-search" class="aside-search">
+                                <input type="text" placeholder="Search..">
+                                <button class="side-search-button"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </aside>
 
                 <!-- -------------------------------------->
                 <!---------------Latest---------------->
                 <!---------------------------------------->
-                <aside class="news-latest u-margin-bottom-small">
+                <aside class="news-latest ">
                     <div class="side-card">
                         <div class="banner-wrap bg-success">
                             <h5 class="aside-title text-center color-white">Latest Blog</h5>
@@ -48,7 +63,7 @@
 
                         <div class="all-common-padding">
 
-                        <a href="detail.php"><!--Aside-box-Start-->
+                        <a href="blog-detail.php"><!--Aside-box-Start-->
                             <div class="side-padding">
                                 <div class="news-wrapper">
                                     <div class="new-img-wrapper">
@@ -60,13 +75,13 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>September 13, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>September 13, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
                         </a><!--Aside-box-END-->
 
-                        <a href="detail.php"><!--Aside-box-Start-->
+                        <a href="blog-detail.php"><!--Aside-box-Start-->
                             <div class="side-padding">
                                 <div class="news-wrapper">
                                     <div class="new-img-wrapper">
@@ -78,13 +93,13 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>October 02, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>October 02, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
                         </a><!--Aside-box-END-->
 
-                        <a href="detail.php"><!--Aside-box-Start-->
+                        <a href="blog-detail.php"><!--Aside-box-Start-->
                             <div class="side-padding">
                                 <div class="news-wrapper">
                                     <div class="new-img-wrapper">
@@ -96,13 +111,13 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>July 20, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>July 20, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
                         </a><!--Aside-box-END-->
 
-                        <a href="detail.php"><!--Aside-box-Start-->
+                        <a href="blog-detail.php"><!--Aside-box-Start-->
                             <div class="side-padding">
                                 <div class="news-wrapper">
                                     <div class="new-img-wrapper">
@@ -114,13 +129,13 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>September 14, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>September 14, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
                         </a><!--Aside-box-END-->
 
-                        <a href="detail.php"><!--Aside-box-Start-->
+                        <a href="blog-detail.php"><!--Aside-box-Start-->
                             <div class="side-padding">
                                 <div class="news-wrapper no-bord-pad">
                                     <div class="new-img-wrapper">
@@ -131,7 +146,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>Feburary 14, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>Feburary 14, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -148,43 +163,11 @@
                 <!---------------Latest (END)---------------->
                 <!-------------------------------------- -->
 
-                    <aside class="blog-side u-margin-bottom-small"> <!-- Card -->
-                        <!-- <h4 class="banner-title text-center">Calender</h4> -->
-                        <div class="clearfix">
-                        <div class="calender-widget">
-                            <div class="curr-month"><b>november</b></div>
-                                <div class="all-days">
-                                    <ul>
-                                        <li>sun</li>
-                                        <li>mon</li>
-                                        <li>tue</li>
-                                        <li>wed</li>
-                                        <li>thu</li>
-                                        <li>fri</li>
-                                        <li>sat</li>
-                                    </ul>
-                                </div>
-                                <div class="all-date">
-                                    <ul>
-                                    </ul>
-                                </div>
-                        </div>
-                        </div>
-                    </aside> <!-- Card -->
 
-                    <aside class="side-card">
-                        <div class="banner-wrap bg-success">
-                            <h5 class="aside-title text-center color-white">Search</h5>
-                        </div>
-                        <div class="all-common-padding">
-                            <form action="side-search" class="aside-search">
-                                <input type="text" placeholder="Search..">
-                                <button class="side-search-button"><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </aside>
+                  
+                </div> <!-- COL -->
 
-            </div> <!-- Col.// -->
+
         </div> <!-- ROW -->
     </div>
 </section>

@@ -27,7 +27,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel1">Q.1: <span class="down-arr">What is hamrogharbhada.com?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel1">Q.1: <span class="down-arr">What is hamrogharbhada.com? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap pannel-active" id="pannel1">
                 <p class="blog-description"><strong>Ans:</strong> hamrogharbhada.com is a web portal, which gives rental solution online. In hamrogharbhada.com people can buy or sell property. It is common platform for both owner and tenant.</p>
             </div>
@@ -36,7 +36,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel2">Q.2: <span class="down-arr">Who can use hamrogharbhada.com?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel2">Q.2: <span class="down-arr">Who can use hamrogharbhada.com? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap" id="pannel2">
                 <p class="blog-description"><strong>Ans:</strong> Everybody who have property or who need property can use hamrogharbhada.com. You can use hamrogharbhada.com, if you want to make deal on property, either to buy or sale property. Similarly you can use hamrogharbhada.com for rent or occupy property.</p>
             </div>
@@ -49,7 +49,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel6">Q.1: <span class="down-arr">How the buy process works?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel6">Q.1: <span class="down-arr">How the buy process works? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap pannel-active" id="pannel6">
                 <p class="blog-description"><strong>Ans:</strong> Buyers will search the property in hamrogharbhada.com and they apply for the property. Our representative will coordinate for field visit. Finally buyer and owner will deal for sale.</p>
             </div>
@@ -58,7 +58,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel7">Q.2: <span class="down-arr">Why should I submit my requirement with hamrogharbhada.com?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel7">Q.2: <span class="down-arr">Why should I submit my requirement with hamrogharbhada.com? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap" id="pannel7">
                 <p class="blog-description"><strong>Ans:</strong> You should submit your requirement to get fastest solution to buy property as per your requirement. Our representative will directly show you matching properties and will link to the property owner for the deal.</p>
             </div>
@@ -67,7 +67,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel8">Q.3: <span class="down-arr">How to submit my requirement on hamrogharbhada.com?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel8">Q.3: <span class="down-arr">How to submit my requirement on hamrogharbhada.com? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap" id="pannel8">
                 <p class="blog-description"><strong>Ans:</strong> Visit www.hamrogharbhada.com and click on Bell Icon "Notify Property" at the topmost right side of the home page and submit your requirement along with your contact details.</p>
             </div>
@@ -79,7 +79,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel9">Q.1: <span class="down-arr">Why do I choose hamrogharbhada.com for sale?</p>
+                <p href="" class="account-pannel" data-idPannel="pannel9">Q.1: <span class="down-arr">Why do I choose hamrogharbhada.com for sale? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap pannel-active" id="pannel9">
                 <p class="blog-description"><strong>Ans:</strong> hamrogharbhada.com is nation’s leading online real estate solution provider. More than hundred visitor in a day use to enquiry to buy property. So, post your property in hamrogharbhada.com to get fastest deal.</p>
             </div>
@@ -88,7 +88,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel10">Q.2: <span class="down-arr">How the sale process works?</p>
+                <p class="account-pannel" data-idPannel="pannel10">Q.2: <span class="down-arr">How the sale process works? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap" id="pannel10">
                 <p class="blog-description"><strong>Ans:</strong> Buyers will search the property in hamrogharbhada.com and they apply for the property. Our representative will coordinate for field visit. Finally owner and buyer will deal for sale.</p>
             </div>
@@ -97,7 +97,7 @@
 
             <!--Box(START)-->
             <div class="account-title-box">
-                <p href="" class="account-pannel" data-idPannel="pannel11">Q.3: <span class="down-arr">What if I refer another property to hamrogharbhada.com?</p>
+                <p class="account-pannel" data-idPannel="pannel11">Q.3: <span class="down-arr">What if I refer another property to hamrogharbhada.com? <i class="fas fa-plus float-right mt-1"></i></p>
             <div class="pannel-box-wrap" id="pannel11">
                 <p class="blog-description"><strong>Ans:</strong> We have a special line up that is refer and earn. In this scheme all you have to do is refer a property owner. When the property you referred to is sold then you will get commission amount.</p>
             </div>
@@ -109,30 +109,6 @@
 
             </div> <!-- Col.// -->
             <div class="col-lg-3"> <!-- Col.// -->
-
-                    <aside class="blog-side u-margin-bottom-small"> <!-- Card -->
-                        <!-- <h4 class="banner-title text-center">Calender</h4> -->
-                        <div class="clearfix">
-                        <div class="calender-widget">
-                            <div class="curr-month"><b>november</b></div>
-                                <div class="all-days">
-                                    <ul>
-                                        <li>sun</li>
-                                        <li>mon</li>
-                                        <li>tue</li>
-                                        <li>wed</li>
-                                        <li>thu</li>
-                                        <li>fri</li>
-                                        <li>sat</li>
-                                    </ul>
-                                </div>
-                                <div class="all-date">
-                                    <ul>
-                                    </ul>
-                                </div>
-                        </div>
-                        </div>
-                    </aside> <!-- Card -->
 
                     <aside class="side-card">
                         <div class="banner-wrap bg-success">

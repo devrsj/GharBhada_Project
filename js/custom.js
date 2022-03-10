@@ -164,11 +164,14 @@ $(document).ready(function() {
 
 $('.pannel-box-wrap').hide();
     $('.pannel-active').show();
+    $('.pannel-active').siblings('p').find('i').addClass('rotate');
   
     $('.account-pannel').on('click',function(){
       var idPannel=$(this).attr('data-idPannel');
       $('#'+idPannel).slideToggle('medium');
       $(".pannel-box-wrap").not($(this).next()).slideUp('medium');
+      $(this).find('i').toggleClass('rotate');
+      $(".account-pannel i").not($(this).find('i')).removeClass('rotate');
     });
 
 

@@ -2,7 +2,7 @@
   <div class="footer-main"> <!-- Footer-Main -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-sm-6 col-xs-12 resp-marg">
+        <div class="col-lg-4 col-sm-6 col-xs-12 resp-marg">
           <h4 class="footer-title">Useful Links</h4>
           <ul class="footer-list">
             <li class="footer-item"><a href="featured.php" class="footer-link">Featured Properties</a></li>
@@ -20,45 +20,32 @@
             <!-- <li class="footer-item"><a href="#" class="footer-link">Need Help?</a></li> -->
           </ul>
         </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 resp-marg">
+        
+        <div class="col-lg-4 col-sm-6 col-xs-12 resp-marg">
+          <h4 class="footer-title">Stay Connected</h4>
+          <div class="footer-page-wrapper">
+
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Forbitechnepal%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=212338340397282" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            
+          </div>
+          
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-12 resp-marg">
           <h4 class="footer-title">Contact Info</h4>
           <ul class="footer-contact-list">
             <li class="footer-contact-item">Rental Company<br><span>Chhaya Center, Kathmandu, Nepal</span></li>
             <li class="footer-contact-item">E-mail <br><span>contact@rentalcompany.com</span></li>
             <li class="footer-contact-item">Phone No. <br><span>+977-9841111222 <br>+977-01-4444444 </span></li>            
           </ul>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 resp-marg">
-          <h4 class="footer-title">Stay Connected</h4>
-          <ul class="footer-social-list">
+          <ul class="footer-social-list mt-3">
             <li class="footer-social-item"><a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a></li>
             <li class="footer-social-item"><a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a></li>
             <li class="footer-social-item"><a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a></li>
             <li class="footer-social-item"><a href="#" class="footer-social-link"><i class="fab fa-skype"></i></a></li>
           </ul>
-
-          <div class="footer-page-wrapper">
-
-            <div class="fb-page" 
-              data-href="https://www.facebook.com/orbitechnepal/"
-              data-small-header="true"
-              data-width="340"
-              data-hide-cover="false"
-              data-show-facepile="true">
-            </div>
-            
-          </div>
-          
         </div>
-        <div class="col-lg-3 col-sm-6 col-xs-12 resp-marg">
-          <h4 class="footer-title">Newsletter</h4>
-          <p class="normal-content color-white">Subscribe our Newsletter for latest Updates.</p>
 
-          <form action="newsletter" class="footer-news">
-            <input type="text" placeholder="E-mail Address">
-            <button class="btn-green">subscribe</button>
-          </form>
-        </div>
       </div>
     </div>
     <p class="text-center advertise-with-us"><a href="advertise.php" class="footer-link advertise-with-us-link">Advertise With Us</a></p>

@@ -32,7 +32,7 @@
             <div class="col-md-9">
                 <div class="banner-wrapper-30">
                     <a href="#">
-                        <img src="images/banner-1.jpg" alt="">
+                        <img src="images/add.gif" alt="">
                     </a>
                 </div>
             </div>
@@ -451,14 +451,14 @@
             <div class="col-md-9">
                 <div class="banner-wrapper-30">
                     <a href="#">
-                        <img src="images/banner-1.jpg" alt="">
+                        <img src="images/banner-1.gif" alt="">
                     </a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="banner-wrapper-30">
                     <a href="#">
-                        <img src="images/banner-2.jpg" alt="">
+                        <img src="images/small-ad.gif" alt="">
                     </a>
                 </div>
             </div>

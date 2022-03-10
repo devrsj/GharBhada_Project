@@ -32,10 +32,20 @@
 
                     <div class="blog-box"> <!-- BLOG-BOX -->
 
-                        <h4 class="blog-heading">HOME IS WHERE THE HEART BELONGS</h4>
+                        <h3 class="blog-heading">HOME IS WHERE THE HEART BELONGS</h3>
 
-                        <div class="blog-post-detail clearfix">
-                            <p class="blog-detail float-left">Posted <span>October 2, 2018</span></p>
+                      
+                        <!-- <a href="#"> -->
+                        <div class="blog-img-wrapper u-margin-bottom-mini" style="height: 25rem;">
+                            <img src="images/listing1.jpg" alt="">
+                            <!-- <div class="blog-hover">
+                                <i class="fas fa-eye"></i>
+                            </div> -->
+                        </div>
+                        <!-- </a> -->
+
+                        <div class="blog-post-detail clearfix mb-4">
+                            <p class="blog-detail float-left">Posted <span>October 2, 2022</span></p>
                             <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             <ul class="blog-detail blog-stats float-left">
                                 <li class="blog-stats-item"><span><i class="fas fa-eye"></i> 4470</span></li>
@@ -45,14 +55,6 @@
                             </ul>
                         </div>
 
-                        <!-- <a href="#"> -->
-                        <div class="blog-img-wrapper u-margin-bottom-mini">
-                            <img src="images/listing1.jpg" alt="">
-                            <!-- <div class="blog-hover">
-                                <i class="fas fa-eye"></i>
-                            </div> -->
-                        </div>
-                        <!-- </a> -->
 
                         <p class="blog-description u-margin-bottom-mini">Nulla dignissim non augue at placerat. Integer vel ipsum at massa finibus finibus interd um vel eros. Aliquam sollicitudin leo eget erat tempor pellentesque. Etiam faucibus odio vel libero imperdiet, vitae dignissim dui suscipit. Nullam luctus... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, eos explicabo. Dolorem, ducimus. Assumenda expedita fugiat tempore unde ipsam vel ad reiciendis, placeat cumque iure.</p>
                         <p class="blog-description u-margin-bottom-mini">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat minima ipsum at ipsa blanditiis perferendis accusamus, praesentium eius obcaecati tenetur dignissimos unde sint quam id eum debitis. Iure ut eos nemo delectus, aliquam voluptate fugiat officia praesentium maiores deserunt, officiis non quasi dolore sint commodi eligendi doloremque error nisi. Odio exercitationem recusandae provident non ab tempora ipsa. Consequatur necessitatibus nulla et? Praesentium est distinctio eaque, omnis, ipsa ipsum nemo eius officiis, quos dolorem quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque at tenetur nulla sapiente magnam similique! Nostrum aliquid recusandae eius temporibus dolorum officiis quo assumenda eveniet repudiandae atque consequatur non a minus vitae, ducimus animi similique dignissimos sit ad? Magni quaerat, modi at soluta earum et maiores vitae quisquam, rem id blanditiis impedit. Labore, repellendus?</p>
@@ -79,10 +81,23 @@
                 </div> <!-- COL -->
                 <div class="col-lg-3"> <!-- COL -->
 
+                
+                <aside class="side-card u-margin-bottom-small">
+                        <div class="banner-wrap bg-success">
+                            <h5 class="aside-title text-center color-white">Search</h5>
+                        </div>
+                        <div class="all-common-padding">
+                            <form action="side-search" class="aside-search">
+                                <input type="text" placeholder="Search..">
+                                <button class="side-search-button"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                    </aside>
+
                 <!-- -------------------------------------->
                 <!---------------Latest---------------->
                 <!---------------------------------------->
-                <aside class="news-latest u-margin-bottom-small">
+                <aside class="news-latest ">
                     <div class="side-card">
                         <div class="banner-wrap bg-success">
                             <h5 class="aside-title text-center color-white">Latest Blog</h5>
@@ -102,7 +117,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>September 13, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>September 13, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -120,7 +135,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>October 02, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>October 02, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -138,7 +153,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>July 20, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>July 20, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -156,7 +171,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>September 14, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>September 14, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -173,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="blog-post-detail clearfix">
-                                    <p class="blog-detail float-left"><span>Feburary 14, 2018</span></p>
+                                    <p class="blog-detail float-left"><span>Feburary 14, 2022</span></p>
                                     <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                                 </div>
                             </div>
@@ -190,41 +205,8 @@
                 <!---------------Latest (END)---------------->
                 <!-------------------------------------- -->
 
-                    <aside class="blog-side u-margin-bottom-small"> <!-- Card -->
-                        <!-- <h4 class="banner-title text-center">Calender</h4> -->
-                        <div class="clearfix">
-                        <div class="calender-widget">
-                            <div class="curr-month"><b>november</b></div>
-                                <div class="all-days">
-                                    <ul>
-                                        <li>sun</li>
-                                        <li>mon</li>
-                                        <li>tue</li>
-                                        <li>wed</li>
-                                        <li>thu</li>
-                                        <li>fri</li>
-                                        <li>sat</li>
-                                    </ul>
-                                </div>
-                                <div class="all-date">
-                                    <ul>
-                                    </ul>
-                                </div>
-                        </div>
-                        </div>
-                    </aside> <!-- Card -->
 
-                    <aside class="side-card">
-                        <div class="banner-wrap bg-success">
-                            <h5 class="aside-title text-center color-white">Search</h5>
-                        </div>
-                        <div class="all-common-padding">
-                            <form action="side-search" class="aside-search">
-                                <input type="text" placeholder="Search..">
-                                <button class="side-search-button"><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </aside>
+                  
                 </div> <!-- COL -->
             </div> <!-- Row -->
     </div>

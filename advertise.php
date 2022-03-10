@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                             <div class="blog-post-detail clearfix">
-                                <p class="blog-detail float-left"><span>September 13, 2018</span></p>
+                                <p class="blog-detail float-left"><span>September 13, 2022</span></p>
                                 <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                             <div class="blog-post-detail clearfix">
-                                <p class="blog-detail float-left"><span>October 02, 2018</span></p>
+                                <p class="blog-detail float-left"><span>October 02, 2022</span></p>
                                 <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                             <div class="blog-post-detail clearfix">
-                                <p class="blog-detail float-left"><span>July 20, 2018</span></p>
+                                <p class="blog-detail float-left"><span>July 20, 2022</span></p>
                                 <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                 </div>
                             </div>
                             <div class="blog-post-detail clearfix">
-                                <p class="blog-detail float-left"><span>September 14, 2018</span></p>
+                                <p class="blog-detail float-left"><span>September 14, 2022</span></p>
                                 <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                 </div>
                             </div>
                             <div class="blog-post-detail clearfix">
-                                <p class="blog-detail float-left"><span>Feburary 14, 2018</span></p>
+                                <p class="blog-detail float-left"><span>Feburary 14, 2022</span></p>
                                 <p class="blog-detail blog-author float-left">by <span>Admin</span></p>
                             </div>
                         </div>

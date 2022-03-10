@@ -1,35 +1,28 @@
-/*
- Project Name: Mero Gharbhada
- Project Category: Realstate
- Developed by: Online Zeal Pvt. Ltd - Tinkune,Kathmandu,Nepal.
- Author: Bhagwan Thapa (Senior FrontEnd Developer)
- Date:March 2019
-
-*/
 
 /* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700:400,700'); */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/*---colors---*/
+
+:root {
+    --primary: #0470b8!important;
+    --secondary: #e4002b!important;
+    --success: #99cc00!important;
+    --accent: #49633c!important;
+    --light-gray: #fefefe!important;
+    --gray: #555555!important;
+    --white: #fff!important;
+    --pri-font: 'Lato', sans-serif;
+}
 
 body {
-    /* font-family: "Roboto", sans-serif; */
+    font-family: var(--pri-font);
     font-size: 16px;
     font-weight: 400;
     background: #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/*---colors---*/
-
-:root {
-    --primary: #0470b8!important;
-    --secondary: #f7941f!important;
-    --success: #99cc00!important;
-    --accent: #49633c!important;
-    --light-gray: #fefefe!important;
-    --gray: #555555!important;
-    --white: #fff!important;
 }
 
 .title {
@@ -193,13 +186,14 @@ button:focus{
 }
 
 .overlay-tag{
-    background: rgba(153, 204, 0, .9);
+    background: rgba(0, 0, 0, .8);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: 500;
     padding: .4rem 1rem;
+    border-radius: 0 30px 30px 0;
     position: absolute;
     top: 10%;
     left: 0;
@@ -250,7 +244,7 @@ button:focus{
 
 .card-special-features i{
     margin-right: .4rem;
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .card-special-features ul li{
@@ -323,12 +317,12 @@ button:focus{
 }
 
 .header-login-wrap a:hover{
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .header-login-wrap a i{
     margin-right: .5rem;
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .nepal-flag-wrap{
@@ -359,13 +353,13 @@ button:focus{
     content: '\f0d8';
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
-    color: var(--success);
+    color: var(--secondary);
     font-size: 35px;
     top: 20%;
 }
 
 .header-calender-wrap i{
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .header-calender{
@@ -438,6 +432,8 @@ header .navbar .nav-item .btn-upload{
     background: var(--secondary);
     border: 1px solid var(--secondary);
     color: #fff;
+    padding: 10px 15px !important;
+    margin-top: 12px;
 }
 
 header .navbar .nav-item .btn-upload:hover{
@@ -445,11 +441,11 @@ header .navbar .nav-item .btn-upload:hover{
     background: transparent;
 }
 
-header .btn-upload::after{
+/* header .btn-upload::after{
     content: '\f093';
     font-family: "Font Awesome 5 Free";
     margin-left: 5px;  
-}
+} */
 
 header .navbar .dropdown-menu,
 header .navbar .dropdown-menu .dropdown-divider{
@@ -663,7 +659,7 @@ header .navbar-toggler{
 }
 
 .search-btn .btn-success{
-    background:var(--success);
+    background:var(--secondary);
     border:none;
     text-transform: uppercase;
     font-weight: 600;
@@ -684,7 +680,7 @@ header .navbar-toggler{
 ------------------------*/
 
 .search-box-wrap{
-    background: var(--primary);
+    background: rgba(0,0,0,0.7);
     padding: 2rem;
     padding-bottom: 1.6rem;
     margin-top: -6.5rem;
@@ -851,18 +847,22 @@ header .navbar-toggler{
 .composition-left,
 .composition-center,
 .composition-right{
-    width: 33.333%;
+    width: 50%;
     padding: 2rem;
     padding-bottom: 3rem;
 }
 
 .composition-left{
-    background: var(--primary);
+    background: linear-gradient(#0470b8, #0470b8a3),url(../images/shil-2.png);
+    /* background-size: cover;
+    background-position: center; */
     padding-left: 5rem;
 }
 
 .composition-center{
-    background: var(--secondary);
+    background: linear-gradient(#e4002b, #e4002b7a),url(../images/support.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .composition-right{
@@ -965,8 +965,8 @@ header .navbar-toggler{
 ------------------------*/
 
 .footer{
-    background: url(../images/bg-footer.png), #474d58;
-    background-size: contain;
+    background: url(../images/footer-bg.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1018,10 +1018,10 @@ header .navbar-toggler{
 }
 
 .footer-item::before{
-    content:'\f105';
+    content:'-';
     font-family: 'Font Awesome 5 Free';
     font-weight: 600;
-    color: var(--secondary);
+    color: white;
     margin-right: .5rem;
 }
 
@@ -1055,8 +1055,8 @@ header .navbar-toggler{
     margin-bottom: 1.5rem;
 }
 
-.footer-social-list{
-    margin: 0 !important;
+.footer .footer-social-list{
+    margin: 0;
     width: 100%;
     margin-bottom: 1.5rem !important;
 }
@@ -1101,8 +1101,8 @@ header .navbar-toggler{
 
 .btn-green{
     outline: none;
-    border: 1px solid var(--success);
-    background: var(--success);
+    border: 1px solid var(--secondary);
+    background: var(--secondary);
     text-transform: uppercase;
     font-weight: 600;
     padding: .7rem 2rem;
@@ -1117,7 +1117,7 @@ header .navbar-toggler{
 
 .btn-green:hover{
     background: transparent;
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .btn-secondary{
@@ -1600,7 +1600,7 @@ header .navbar-toggler{
 	font-size: 1.5rem;
 	letter-spacing: 1px;
     /* color: #eee; */
-    color: var(--success);
+    color: var(--secondary);
   }
   
   .new-special-offer .new-special-slider .carousel-caption p{
@@ -1749,10 +1749,16 @@ header .navbar-toggler{
   .blog-heading{
     padding: 1rem 0;
     border-bottom: 1px solid #ccc;
-    font-size: 1.1rem; 
+    font-size: 1.8rem; 
     color: #666;
     margin-bottom: 1rem;
     letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: var(--pri-font);
+  }
+
+  .blog-main .blog-heading{
+      font-size: 1.1rem;
   }
 
   .blog-detail{
@@ -1805,7 +1811,7 @@ header .navbar-toggler{
 
   .blog-img-wrapper{
       width: 100%;
-      height: 25rem;
+      height: 15rem;
       position: relative;
   }
 
@@ -1818,6 +1824,23 @@ header .navbar-toggler{
       opacity: 0;
       visibility: hidden;
       transition: all .5s;
+      height: 45px;
+    text-align: center;
+    width: 45px;
+    background: var(--secondary);
+    padding: 10px;
+  }
+
+  .blog-main .blog-box .blog-post-detail{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 2px 8px;
+  }
+
+  .blog-main .blog-box .blog-post-detail *{
+      color: white;
   }
 
   .search-result-img-wrap:hover .card-hover,
@@ -1876,7 +1899,7 @@ header .navbar-toggler{
   
   .curr-month {
     width: 100%;
-    background: var(--success);
+    background: var(--secondary);
     color: #fff;
     font-size: 1.2rem;
     padding: .5rem 0;
@@ -1928,7 +1951,7 @@ header .navbar-toggler{
   }
   
   .all-date li.monthdate:hover {
-    background-color: var(--success);
+    background-color: var(--secondary);
     color: #fff;
   }
 
@@ -1950,7 +1973,7 @@ header .navbar-toggler{
   }
 
   .bg-success{
-      background: var(--success) !important;
+      background: var(--secondary) !important;
   }
 
   .aside-title{
@@ -2009,7 +2032,8 @@ header .navbar-toggler{
 
   .blogdetail-author-info{
       padding: 2rem;
-      background: #ccc;
+      background: #cccccc70;
+    border-radius: 8px;
   }
 
   .blogdetail-author-img-wrap{
@@ -2021,6 +2045,7 @@ header .navbar-toggler{
       height: 100%;
       width: 100%;
       object-fit: cover;
+      border-radius: 100%;
       opacity: .8;
   }
 
@@ -2073,7 +2098,6 @@ header .navbar-toggler{
 
 .news-wrapper{
     display: flex;
-    align-items: center;
 }
 
 .side-padding{
@@ -2095,7 +2119,7 @@ header .navbar-toggler{
 }
 
 .news-latest .blog-post-detail .blog-detail span{
-    color: var(--success);
+    color: var(--secondary);
 }
 
 .news-latest .blog-post-detail .blog-author{
@@ -2123,7 +2147,7 @@ header .navbar-toggler{
 .product-link:visited{
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--success);
+  color: var(--secondary);
   font-size: .9rem;
   padding-bottom: .3rem;
   border-bottom: 1px solid currentColor;
@@ -2297,7 +2321,6 @@ header .navbar-toggler{
       height: 30px;
       text-align: center;
       line-height: 30px;
-      border: 1px solid var(--secondary);
       margin: 2px;
       /* padding: 5px; */
     display: inline-block;
@@ -2488,6 +2511,7 @@ header .navbar-toggler{
       font-size: 1.2rem;
       font-weight: 300;
       letter-spacing: 1px;
+      font-family: var(--pri-font);
   }
 
   .contact-page-new ul li i{
@@ -2559,7 +2583,8 @@ header .navbar-toggler{
     display: block;
     padding: 1rem;
     border: 1px solid #ccc;
-    background: #777;
+    border-radius: 8px;
+    background: #2B2D2C;
     width: 100%;
     margin: 0 auto;
     /* letter-spacing: 1px;
@@ -2575,7 +2600,6 @@ header .navbar-toggler{
   .pannel-box-wrap{
     width: 100%;
     padding: 1.5rem;
-    border: 1px solid #eee;
   }
   
   /*------Accordion (END)--------*/
@@ -2941,6 +2965,8 @@ header .navbar-toggler{
 
 #newproperties .new-properties-wrap{ 
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #newproperties .new-properties-wrap::before{
@@ -2979,7 +3005,7 @@ header .navbar-toggler{
 
 .new-property-content .p2 i{
     margin-right: .4rem;
-    color: var(--success);
+    color: var(--secondary);
 }
 
 /*-------------------------------
@@ -3000,7 +3026,7 @@ header .navbar-toggler{
     font-weight: 600;
     text-transform: uppercase;
     color: #555;
-    /* color: var(--success); */
+    /* color: var(--secondary); */
 }
 
 .sell-property-form input,
@@ -3012,7 +3038,7 @@ header .navbar-toggler{
     border-radius: 5px;
     outline: none;
     border: 1px solid #ccc;
-    /* border: 1px solid var(--success); */
+    /* border: 1px solid var(--secondary); */
     color: #777;
     padding: .5rem;
     margin-bottom: 1.5rem;
@@ -3176,3 +3202,103 @@ header .navbar-toggler{
 .extra-space{
     height: 200vh;
 }
+.account-pannel i{
+    transition: .4s;
+}
+i.rotate{
+    transform: rotate(45deg);
+}
+
+.contact-form {
+    padding: 64px 0 79px;
+  }
+  @media (max-width: 767px) {
+    .contact-form {
+      padding: 40px 0 50px;
+    }
+  }
+  .contact-form .title-wrapper {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 37px;
+  }
+  @media (max-width: 767px) {
+    .contact-form .title-wrapper {
+      margin-bottom: 30px;
+    }
+  }
+  .contact-form .title {
+    margin-bottom: 15px;
+  }
+  @media (max-width: 767px) {
+    .contact-form .title {
+      margin-bottom: 10px;
+    }
+  }
+  .contact-form .title h2 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+  @media (max-width: 767px) {
+    .contact-form .title h2 {
+      font-size: 24px;
+      line-height: 33.6px;
+    }
+  }
+  .contact-form .content {
+    margin-bottom: 17px;
+  }
+  .contact-form .content p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .contact-form form {
+    max-width: 690px;
+    margin: auto;
+  }
+  .contact-form form .flex-row {
+    flex-wrap: wrap;
+  }
+  .contact-form form .wpcf7-response-output {
+    margin: 0;
+  }
+  .contact-form form .block {
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+  @media (max-width: 767px) {
+    .contact-form form .block {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 22px;
+    }
+  }
+  .contact-form form label {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    display: block;
+  }
+  .contact-form form .pl-2 {
+    padding-left: 20px;
+  }
+  .contact-form form .form-control {
+    width: 100%;
+    border: 1px solid #2B2D2C;
+    height: 48px;
+    padding: 0 15px;
+    background-color: transparent;
+  }
+  .contact-form form textarea.form-control {
+    min-height: 170px;
+    background-color: transparent;
+    padding-top: 24px;
+  }
+  .contact-form form button{
+    padding: 15px;
+  }
+  .contact-form form button:hover {
+    background-color: white;
+  }
+
